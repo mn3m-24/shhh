@@ -1,0 +1,26 @@
+---
+BasedOnStyle: LLVM
+
+# Indentation
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+# Line length
+ColumnLimit: 100
+
+# Pointer alignment: 'char *ptr' (standard in C)
+PointerAlignment: Right
+
+# Spacing & Braces
+SpaceBeforeParens: ControlStatements
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterFunction: true
+  AfterControlStatement: false
+  AfterStruct: false
+  AfterEnum: false
+
+# Sorting
+SortIncludes: CaseSensitive
+...
